@@ -16,6 +16,7 @@ refs
 - https://observablehq.com/@palewire/radar-chart
 - https://gist.github.com/nbremer/21746a9668ffdf6d8242
 - https://yangdanny97.github.io/blog/2019/03/01/D3-Spider-Chart
-- https://observablehq.com/@d3/radial-tree-component
+- https://observablehq.com/@d3/radial-tree/2
+- https://observablehq.com/@d3/radial-cluster/2
 - https://observablehq.com/@jjsiman/binary-timeline
 - https://observablehq.com/@liuyao12/timeline
