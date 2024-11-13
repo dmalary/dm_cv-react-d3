@@ -1,8 +1,21 @@
-# React + Vite
+# David Malary CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite + d3
 
-Currently, two official plugins are available:
+[App link]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### commands
+- install: npm i
+- run: npm run dev
+- build: npm run build
+- deploy: npm run deploy
+
+refs
+- https://observablehq.com/d/b1aae0954e665717
+- https://www.react-graph-gallery.com/radar-chart
+- https://observablehq.com/@palewire/radar-chart
+- https://gist.github.com/nbremer/21746a9668ffdf6d8242
+- https://yangdanny97.github.io/blog/2019/03/01/D3-Spider-Chart
+- https://observablehq.com/@d3/radial-tree-component
+- https://observablehq.com/@jjsiman/binary-timeline
+- https://observablehq.com/@liuyao12/timeline
