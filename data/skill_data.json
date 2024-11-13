@@ -1,0 +1,86 @@
+[
+  {
+    "key": "Javascript",
+    "value": 9
+  },
+  {
+    "key": "Typescript",
+    "value": 2
+  },
+  {
+    "key": "d3.js",
+    "value": 4
+  },
+  {
+    "key": "HTML5",
+    "value": 9
+  },
+  {
+    "key": "CSS",
+    "value": 9
+  },
+  {
+    "key": "JSON",
+    "value": 9
+  },
+  {
+    "key": "Node.js",
+    "value": 9
+  },
+  {
+    "key": "Material-UI",
+    "value": 2
+  },
+  {
+    "key": "Tailwind CSS",
+    "value": 2
+  },
+  {
+    "key": "Bootstrap",
+    "value": 3
+  },
+  {
+    "key": "Microsoft Excel",
+    "value": 10
+  },
+  {
+    "key": "Google Sheets",
+    "value": 10
+  },
+  {
+    "key": "Git",
+    "value": 9
+  },
+  {
+    "key": "Adobe Photoshop",
+    "value": 8
+  },
+  {
+    "key": "Adobe Illustrator",
+    "value": 3
+  },
+  {
+    "key": "Figma",
+    "value": 5
+  },
+  {
+    "key": "Jira",
+    "value": 6
+  },
+  {
+    "key": "Slack",
+    "value": 6
+  },
+  {
+    "key": "Trello",
+    "value": 6
+  },
+  {
+    "key": "Blender3d",
+    "value": 1
+  }
+  {
+    "key": "Algorithms, Data Structures",
+    "value": 2
+  }
+]
