@@ -16,6 +16,7 @@ function App() {
       r: 20,
       b: 20,
       l: 10,
+      g: 30
     },
   }
 
@@ -26,7 +27,7 @@ function App() {
         <p>- Bushwick, Brooklyn. NY - Phone: (646) 255-0485 - davidmalary@gmail.com -</p>
       </div>
       <div>
-        <RadarChart width={specs.size.w} height={specs.size.h} data={skillData}/>
+        <RadarChart width={specs.size.w} height={specs.size.h} margin={specs.margin.g} data={skillData} />
       </div>
     </>
   )
