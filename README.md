@@ -2,6 +2,8 @@
 
 React + Vite + d3
 
+An upgraded version of my resume, based on a picture is worth a thousand words.
+
 [App link]()
 
 ### commands
