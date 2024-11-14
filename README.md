@@ -23,3 +23,9 @@ refs
 - https://observablehq.com/@d3/radial-cluster/2
 - https://observablehq.com/@jjsiman/binary-timeline
 - https://observablehq.com/@liuyao12/timeline
+
+
+next:
+- radar circles interpolate background
+- radial
+- timeline
