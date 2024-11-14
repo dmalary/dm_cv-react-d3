@@ -33,7 +33,7 @@ const RadarChart = ({ width, height, data, margin }) => {
   allCoordinates.push(allCoordinates[0]);
   
   const linePath = lineGen(allCoordinates);
-  console.log('linePath', linePath)
+  // console.log('linePath', linePath)
 
   return (
     <svg
@@ -49,9 +49,9 @@ const RadarChart = ({ width, height, data, margin }) => {
         />
         <path
           d={linePath}
-          stroke={'#cb1dd1'}
+          stroke={'#00A0B0'}
           strokeWidth={3}
-          fill={'#cb1dd1'}
+          fill={'#00A0B0'}
           fillOpacity={0.1}
         />
       </g>
