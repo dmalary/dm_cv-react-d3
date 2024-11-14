@@ -14,10 +14,10 @@ const RadarChartGrid = ({ innerRadius, outerRadius, xScale, axisData }) => {
   // console.log('keys', keys)
 
   const circlesDomain = [...Array(5).keys()];
-  console.log('circlesDomain', circlesDomain)
+  // console.log('circlesDomain', circlesDomain)
 
-  const circleColorScale = d3.scaleSequential(d3.interpolatePuRd)
-    .domain(circlesDomain.reverse());
+  // const circleColorScale = d3.scaleSequential(d3.interpolatePuRd)
+  //   .domain(circlesDomain.reverse());
 
   const lineGen = d3.lineRadial();
 
@@ -56,8 +56,8 @@ const RadarChartGrid = ({ innerRadius, outerRadius, xScale, axisData }) => {
   });
 
   const allCircles = circlesDomain.map((pos, i) => {
-    console.log('i', i)
-    console.log('pos', pos)
+    // console.log('i', i)
+    // console.log('pos', pos)
     return (
       <circle
         key={i}

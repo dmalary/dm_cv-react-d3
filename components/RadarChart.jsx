@@ -15,10 +15,26 @@ const RadarChart = ({ width, height, data, margin }) => {
     .domain(allKeys)
     .range([0, 2 * Math.PI]);
 
-  let yScale = d3.scaleRadial()
+  const yScale = d3.scaleRadial()
       .domain([0, 10])
       .range([innerRadius, outerRadius]);
   
+  const lineGen = d3.lineRadial();
+
+  const allCoordinates = data.map((el) => {
+    const angle = xScale(el.key);
+    const radius = yScale(el.value);
+
+    const coordinate = [angle, radius];
+    
+    return coordinate;
+  })
+
+  allCoordinates.push(allCoordinates[0]);
+  
+  const linePath = lineGen(allCoordinates);
+  console.log('linePath', linePath)
+
   return (
     <svg
       width={width}
@@ -30,6 +46,13 @@ const RadarChart = ({ width, height, data, margin }) => {
           outerRadius={outerRadius}
           xScale={xScale}
           axisData={data}
+        />
+        <path
+          d={linePath}
+          stroke={'#cb1dd1'}
+          strokeWidth={3}
+          fill={'#cb1dd1'}
+          fillOpacity={0.1}
         />
       </g>
     </svg>
