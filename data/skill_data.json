@@ -78,9 +78,21 @@
   {
     "key": "Blender3d",
     "value": 1
-  }
+  },
   {
     "key": "Algorithms, Data Structures",
     "value": 2
+  },
+  {
+    "key": "SQL",
+    "value": 1
+  },
+  {
+    "key": "PSQL",
+    "value": 1
+  },
+  {
+    "key": "MongoDB",
+    "value": 1
   }
 ]
