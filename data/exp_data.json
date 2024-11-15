@@ -9,12 +9,12 @@
             "name": "Data Visualization Engineer",
             "children": [
               {
-                "name": "tasks",
-                "value": "Designed and built interactive data visualizations using D3 and JavaScript, enhancing user experience by creating intuitive, visually engaging dashboards for client decision-making, in diverse industries."
+                "name": "Designed and built interactive data visualizations using D3 and JavaScript, enhancing user experience by creating intuitive, visually engaging dashboards for client decision-making, in diverse industries.",
+                "value": 1
               },
               {
-                "name": "tasks",
-                "value": "Collaborated closely with clients to tailor UX/UI elements to their branding and functionality requirements, ensuring each visualization met unique user needs."
+                "name": "Collaborated closely with clients to tailor UX/UI elements to their branding and functionality requirements, ensuring each visualization met unique user needs.",
+                "value": 1
               }
             ]
           }
@@ -27,16 +27,16 @@
             "name": "Front-End Developer, Tech Lead",
             "children": [
               {
-                "name": "tasks",
-                "value": "Led the development of digital marketing assets using HTML5, CSS, JavaScript, and JSON to enhance user interaction and engagement across client sites."
+                "name": "Led the development of digital marketing assets using HTML5, CSS, JavaScript, and JSON to enhance user interaction and engagement across client sites.",
+                "value": 1
               },
               {
-                "name": "tasks",
-                "value": "Managed code repositories and documentation with Git, establishing a streamlined Git flow process for efficient collaboration and version control."
+                "name": "Managed code repositories and documentation with Git, establishing a streamlined Git flow process for efficient collaboration and version control.",
+                "value": 1
               },
               {
-                "name": "tasks",
-                "value": "Collaborated with design teams to create and edit designs, images, and interactive GIFs, utilizing Adobe Suite and Photoshop, and aligning assets with branding and increasing content engagement."
+                "name": "Collaborated with design teams to create and edit designs, images, and interactive GIFs, utilizing Adobe Suite and Photoshop, and aligning assets with branding and increasing content engagement.",
+                "value": 1
               }
             ]
           }
@@ -49,12 +49,12 @@
             "name": "Front-End Developer, Tech Support",
             "children": [
               {
-                "name": "tasks",
-                "value": "Developed internal CMS features using JavaScript, Angular, HTML5, and CSS, optimizing content management for internal teams."
+                "name": "Developed internal CMS features using JavaScript, Angular, HTML5, and CSS, optimizing content management for internal teams.",
+                "value": 1
               },
               {
-                "name": "tasks",
-                "value": "Investigated and resolved front-end discrepancies, ensuring a seamless and bug-free user experience across client accounts."
+                "name": "Investigated and resolved front-end discrepancies, ensuring a seamless and bug-free user experience across client accounts.",
+                "value": 1
               }
             ]
           }
@@ -67,12 +67,12 @@
             "name": "Business Development Manager",
             "children": [
               {
-                "name": "tasks",
-                "value": "Supported product development and sales engineering efforts by providing technical insights on front-end implementation strategies."
+                "name": "Supported product development and sales engineering efforts by providing technical insights on front-end implementation strategies.",
+                "value": 1
               },
               {
-                "name": "tasks",
-                "value": "Contributed to UI/UX considerations during strategic planning sessions to improve user engagement and interaction within the product suite."
+                "name": "Contributed to UI/UX considerations during strategic planning sessions to improve user engagement and interaction within the product suite.",
+                "value": 1
               }
             ]
           }
@@ -81,3 +81,7 @@
     ]
   }
 ]
+
+
+
+
