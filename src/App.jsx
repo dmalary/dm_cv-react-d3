@@ -1,8 +1,10 @@
 import './App.css'
 
 import skillData from "../data/skill_data.json"
+import expData from "../data/exp_data.json" 
 
 import RadarChart from "../components/RadarChart";
+import RadialTreeChart from "../components/RadialTreeChart";
 
 function App() {
 
@@ -27,7 +29,12 @@ function App() {
         <p>- Bushwick, Brooklyn. NY - Phone: (646) 255-0485 - davidmalary@gmail.com -</p>
       </div>
       <div>
-        <RadarChart width={specs.size.w} height={specs.size.h} margin={specs.margin.g} data={skillData} />
+        <div>
+          <RadarChart width={specs.size.w} height={specs.size.h} margin={specs.margin.g} data={skillData} />
+        </div>
+        <div>
+        <RadialTreeChart width={specs.size.w} height={specs.size.h} data={expData[0]} margin={specs.margin.g} />
+        </div>
       </div>
     </>
   )
