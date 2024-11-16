@@ -85,15 +85,13 @@ const RadialTreeChart = ({ width, height, data, margin }) => {
   });
 
   return (
-    <div>
-      <svg width={width + width / 2} height={height + height / 2}>
-        {/* <g transform={`translate(${radius + margin / 2}, ${radius + margin / 2})`}> */}
-        <g transform={`translate(${(width + width / 2) / 2}, ${(height + height / 2) / 2})`}>
-          {allEdges}
-          {allNodes}
-        </g>
-      </svg>
-    </div>
+    <svg width={width + width / 2} height={height + height / 2}>
+      {/* <g transform={`translate(${radius + margin / 2}, ${radius + margin / 2})`}> */}
+      <g transform={`translate(${(width + width / 2) / 2}, ${(height + height / 2) / 2})`}>
+        {allEdges}
+        {allNodes}
+      </g>
+    </svg>
   )
 }
 
