@@ -19,7 +19,7 @@
         ]
       },
       {
-        "name": "Dow Jones/WSJ",
+        "name": "WSJ",
         "children": [
           {
             "name": "Front-End Dev, Tech Lead",
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "name": "Qapital, Inc",
+        "name": "Qapital",
         "children": [
           {
             "name": "Front-End Dev, Tech Support",
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "name": "Signal360/Sonic Notify",
+        "name": "Signal360",
         "children": [
           {
             "name": "Biz Dev Manager",
