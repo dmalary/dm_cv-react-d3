@@ -16,7 +16,7 @@ const TimeLineChart = ({ width, height, data, margin }) => {
       date_completed: parseDate(d.date_completed),
     }));
   }, [data]);
-  console.log('parsedData', parsedData)
+  // console.log('parsedData', parsedData)
 
   const xScale = useMemo(() => {
     // const dates = parsedData.map((d) => d.date_completed);
@@ -34,7 +34,6 @@ const TimeLineChart = ({ width, height, data, margin }) => {
       .domain(parsedData.map(el => el.type))
       .range(["#fb8072", "#80b1d3"])
   }, [parsedData])
-  console.log('parsedData', parsedData.map(el => el.type))
   
   useEffect(() => {
     const svgEl = d3.select(axesRefs.current);
