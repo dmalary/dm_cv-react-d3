@@ -26,6 +26,4 @@ refs
 
 
 next:
-- radar circles interpolate background
-- radial
-- timeline
+- cleanup & styles (tailwind)
