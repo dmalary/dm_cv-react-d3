@@ -38,7 +38,7 @@ function App() {
           <RadialTreeChart width={specs.size.w} height={specs.size.h} data={expData[0]} margin={specs.margin.g} />
         </div>
         <div className='timeline-chart-container'>
-          <TimeLineChart width={specs.size.w} height={specs.size.h} data={eduData} margin={specs.margin.g} />
+          <TimeLineChart width={specs.size.w} height={specs.size.h/2.5} data={eduData} margin={specs.margin.g} />
         </div>
       </div>
     </>
