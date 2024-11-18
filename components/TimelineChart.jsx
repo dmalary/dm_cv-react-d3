@@ -16,18 +16,25 @@ const TimeLineChart = ({ width, height, data, margin }) => {
       date_completed: parseDate(d.date_completed),
     }));
   }, [data]);
-  // console.log('parsedData', parsedData)
+  console.log('parsedData', parsedData)
 
   const xScale = useMemo(() => {
-    const dates = parsedData.map((d) => d.date_completed);
+    // const dates = parsedData.map((d) => d.date_completed);
     // console.log('dates', dates);
 
     return (
     d3.scaleTime()
       // .domain(d3.extent(dates))
-      .domain([d3.timeParse('%m/%Y')('12/2010'), d3.timeParse('%m/%Y')('12/2022')])
+      .domain([d3.timeParse('%m/%Y')('6/2009'), d3.timeParse('%m/%Y')('12/2022')])
       .range([margin, width - margin])
-  )}, [width, margin, parsedData])
+  )}, [width, margin])
+
+  const colorScale = useMemo(() => {
+    return d3.scaleOrdinal()
+      .domain(parsedData.map(el => el.type))
+      .range(["#fb8072", "#80b1d3"])
+  }, [parsedData])
+  console.log('parsedData', parsedData.map(el => el.type))
   
   useEffect(() => {
     const svgEl = d3.select(axesRefs.current);
@@ -46,11 +53,12 @@ const TimeLineChart = ({ width, height, data, margin }) => {
 
   const labels = parsedData.map((d, i) => (
     <g key={i} transform={`translate(${xScale(d.date_completed)}, ${height - margin - 10})`}>
-      <circle r={3} fill="#3a3a3a" />
+      {/* <circle r={4} fill="#3a3a3a" /> */}
+      <circle r={4} fill={colorScale(d.type)} />
       <text
         textAnchor="middle"
         y={-10}
-        fontSize="10px"
+        fontSize="12px"
         fill="#3a3a3a"
       >
         {d.name}
