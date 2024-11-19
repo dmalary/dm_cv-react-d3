@@ -52,7 +52,7 @@
         "name": "Signal360",
         "children": [
           {
-            "name": "Biz Dev Manager",
+            "name": "Biz Dev",
             "children": [
               { "name": "Product support", "value": 1 },
               { "name": "UI/UX strategy", "value": 1 }
