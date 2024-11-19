@@ -15,6 +15,7 @@ const RadialTreeChart = ({ width, height, data, margin }) => {
   // console.log('dataHierarchy', dataHierarchy);
 
   const radius = Math.min(width, height) / 2 - margin;
+  console.log('radius', radius)
 
   const tree = useMemo(() => {
     const treeGen = d3.cluster()
@@ -54,7 +55,8 @@ const RadialTreeChart = ({ width, height, data, margin }) => {
           x={flipLabel ? -10 : 10}
           // x={node.x < Math.PI === !node.children ? 10 : -10}
           textAnchor={flipLabel ? "end" : "start"}
-          fontSize={11}
+          fontSize={10}
+          // fontSize={node.depth === 1 ? 10 : 9}
           alignmentBaseline="middle"
           paintOrder="stroke"
           stroke="#efefef"
@@ -86,8 +88,10 @@ const RadialTreeChart = ({ width, height, data, margin }) => {
 
   return (
     <svg width={width + width / 2} height={height + height / 2}>
+    {/* <svg width={width} height={height}> */}
       {/* <g transform={`translate(${radius + margin / 2}, ${radius + margin / 2})`}> */}
       <g transform={`translate(${(width + width / 2) / 2}, ${(height + height / 2) / 2})`}>
+      {/* <g transform={`translate(${width + width / 2}, ${height + height / 2})`}> */}
         {allEdges}
         {allNodes}
       </g>
