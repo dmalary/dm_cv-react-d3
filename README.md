@@ -21,9 +21,11 @@ refs
 - https://yangdanny97.github.io/blog/2019/03/01/D3-Spider-Chart
 - https://observablehq.com/@d3/radial-tree/2
 - https://observablehq.com/@d3/radial-cluster/2
+- https://www.react-graph-gallery.com/dendrogram
 - https://observablehq.com/@jjsiman/binary-timeline
 - https://observablehq.com/@liuyao12/timeline
 
 
 next:
-- cleanup & styles (tailwind)
+- legends/annotation
+- polish 
