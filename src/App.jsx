@@ -28,7 +28,7 @@ function App() {
     <>
       <div className='intro-copy-container'>
         <h3><strong>DAVID MALARY</strong></h3>
-        <p>- Bushwick, Brooklyn. NY - Phone: (646) 255-0485 - davidmalary@gmail.com -</p>
+        <p>- Bushwick, Brooklyn. NY -</p>
       </div>
       <div className='main-container flex flex-col'>
         <div className='skill-edu-container flex flex-col lg:flex-row'>
