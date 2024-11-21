@@ -27,20 +27,36 @@ function App() {
   return (
     <>
       <div className='intro-copy-container'>
-        <h3><strong>DAVID MALARY</strong></h3>
+        <h1 className='text-4xl font-bold'>DAVID MALARY</h1>
         <p>- Bushwick, Brooklyn. NY -</p>
       </div>
       <div className='main-container flex flex-col'>
-        <div className='skill-edu-container flex flex-col lg:flex-row'>
-          <div className='radar-chart-container mx-auto my-auto'>
-            <RadarChart width={640} height={440} margin={specs.margin.g} data={skillData} />
+        <div className='skill-edu-container flex flex-col lg:flex-row pt-10'>
+          <div className='radar-chart-container mx-auto items-start'>
+            <div className='pb-5'>
+              <h3 className='font-bold'>SKILLS</h3>
+              <p>(in est. years of exp. Max 10 yrs)</p>
+            </div>
+            <div className='pt-7'>
+              <RadarChart width={650} height={500} margin={specs.margin.g} data={skillData} />
+            </div>
           </div>
           <div className='radial-chart-container mx-auto my-auto'>
-            <RadialTreeChart width={400} height={450} data={expData[0]} margin={specs.margin.g} />
+            <div className='pb-1'>
+              <h3 className='font-bold'>EXPERIENCE</h3>
+            </div>
+            <div className='pt-1'>
+              <RadialTreeChart width={400} height={430} data={expData[0]} margin={specs.margin.g} />
+            </div>
           </div>
         </div>
         <div className='timeline-chart-container mx-auto'>
-          <TimeLineChart width={700} height={specs.size.h/5} data={eduData} margin={specs.margin.g} />
+          <div className='pb-1'>
+            <h3 className='font-bold'>EDUCATION</h3>
+          </div>
+          <div className='pt-1'>
+            <TimeLineChart width={700} height={specs.size.h/5} data={eduData} margin={specs.margin.g} />
+          </div>
         </div>
       </div>
     </>
