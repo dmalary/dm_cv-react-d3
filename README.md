@@ -4,7 +4,7 @@ React + Vite + d3
 
 An upgraded version of my resume, based on a picture is worth a thousand words.
 
-[App link]()
+[App link](https://dmalary.github.io/dm_cv-react-d3/)
 
 ### commands
 - install: npm i
@@ -27,5 +27,4 @@ refs
 
 
 next:
-- legends/annotation
-- polish 
+
